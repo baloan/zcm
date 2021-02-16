@@ -1,4 +1,4 @@
-#!/usr/bin/python3
+#!/usr/bin/env python3
 # encoding: utf8
 
 # Copyright (c) 2016 Andreas
