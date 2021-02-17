@@ -16,9 +16,9 @@
 ```
 - ZConnection implements a connection context manager.
 - Transaction context managers in contrast do auto-commit:
-  1. with db.transaction() as connection, or
-  1. with cx.transaction_manager as transaction, or
-  1. with transaction.manager as transaction  (for the thread-local transaction manager)
+  1. with `db.transaction()` as connection, or
+  1. with `cx.transaction_manager` as transaction, or
+  1. with `transaction.manager` as transaction  (for the thread-local transaction manager)
 - See also http://www.zodb.org/en/latest/guide/transactions-and-threading.html
     
     
