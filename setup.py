@@ -36,14 +36,14 @@ def get_packages(package):
 
 
 setup(
-    name="zcm",
+    name="zodb-cm",
     python_requires=">=3.6",
     version=get_version("zcm"),
-    url="https://github.com/baloan/zcm",
+    url="https://github.com/baloan/zodb-cm",
     project_urls={
-        "Changelog": "https://github.com/baloan/zcm/CHANGELOG.md",
+        "Changelog": "https://github.com/baloan/zodb-cm/CHANGELOG.md",
         "Documentation": "https://...",
-        "Source": "https://github.com/baloan/zcm",
+        "Source": "https://github.com/baloan/zodb-cm",
     },
     license="MIT",
     description="ZODB context manager",
